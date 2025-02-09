@@ -12,7 +12,7 @@ def qrgenerator():
     s.connect(("8.8.8.8", 80))
     ip = s.getsockname()[0]
 
-    link = f"http://{ip}:8000/add_manually"
+    link = f"http://10.204.128.197:8000/add_manually"
 
     # Function to generate and display a QR code
     def generate_qr_code(link):
